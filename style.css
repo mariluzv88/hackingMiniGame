@@ -1,0 +1,30 @@
+
+.gameBoard{
+    border: solid black;
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    height: 95vmin;
+    width: 95vmin;
+}
+
+.tiles{
+    position: relative;
+     border: solid white;
+     background-color: purple;
+    height: 200px;
+    width: 200px;
+    cursor: crosshair;
+}
+.tiles.dragged{
+    opacity: .5;
+}
+#t1{
+background-color: cyan;
+}
+#t2{
+background-color: green; 
+}
+#t3{
+background-color: orangered; 
+}
